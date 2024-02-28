@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="image1" id="image1">
+            <img id="productImage" class="productImage" src="images/girl.webp">        
+            <div class="images2">
+                <img src="https://images.unsplash.com/photo-1598626431046-c7978e636c14?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                <img src="https://images.unsplash.com/photo-1608234934808-addc77e651b3?q=80&w=1953&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                <img src="https://images.unsplash.com/photo-1608234807905-4466023792f5?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                <img src="https://images.unsplash.com/photo-1598626431046-c7978e636c14?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+            </div>
+        </div>
+        <div class="side-section">
+            <h3>Marmeto</h3>
+            <h1>Embrace Sideboard</h1>
+        </div>
+        <div class="side-section2">
+            <p id="comparePrice">$12999.00</p>
+            <p id="discountPercent">35% Off</p>
+            <div class="strike">
+                <del id="originalPrice">$19999.00</del>
+            </div>
+        </div>
+        <div class="color-section">
+            <p>choose color</p>
+            <div id="product">
+                <div id="box1" class="color-box red" onclick="selectColor('red')"></div>
+                <div id="box2" class="color-box green" onclick="selectColor('green')"></div>
+                <div id="box3" class="color-box blue" onclick="selectColor('blue')"></div>
+                <div id="box4" class="color-box pink" onclick="selectColor('pink')"></div>
+            </div>
+        </div>
+        <div class="size-section">
+            <p>choose size</p>
+            <label><input type="radio" name="size" value="small" onclick="selectSize('Small')"> Small</label>
+            <label><input type="radio" name="size" value="medium" onclick="selectSize('Medium')"> Medium</label>
+            <label><input type="radio" name="size" value="large" onclick="selectSize('Large')"> Large</label>
+            <label><input type="radio" name="size" value="XL" onclick="selectSize('XL')"> XL</label>
+            <label><input type="radio" name="size" value="XXL" onclick="selectSize('XXL')"> XXL</label>
+        </div>
+        <div class="buttons">
+            <button id="btn1">-  1  +</button>
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart" style="font-size:15px"></i>Add to Cart</button>
+        </div>
+        <div class="text">
+            <p>Embrace sideboard with color yellow and size small added to cart</p>
+        </div>
+        <div class="text1">
+            <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any bottle decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
